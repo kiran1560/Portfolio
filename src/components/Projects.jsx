@@ -12,7 +12,6 @@ export default function Projects() {
           {projects.map((proj) => (
             <Col md={4} sm={6} key={proj.id} className="mb-4">
               <Card className="project-card">
-                <Card.Img variant="top" src={proj.image} />
                 <Card.Body>
                   <Card.Title>{proj.title}</Card.Title>
                   <Card.Text>{proj.description}</Card.Text>

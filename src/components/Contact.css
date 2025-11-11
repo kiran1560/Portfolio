@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.contact-section {
+  background: rgba(10, 10, 15, 0.9);
+  padding: 80px 10%;
+  text-align: center;
+  color: #eaf4ff;
+}
+
+.contact-section h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #00e0ff;
+  text-shadow: 0 0 10px #00e0ff;
+  margin-bottom: 20px;
+}
+
+.contact-intro {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-size: 1.05rem;
+  color: #cfd8dc;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.contact-links a {
+  color: #eaf4ff;
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.contact-links a:hover {
+  background: rgba(0, 255, 255, 0.15);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  transform: translateY(-3px);
+}
+
+.material-icons {
+  font-size: 22px;
+  color: #00ffff;
+}

@@ -1,0 +1,23 @@
+.projects-section {
+  background: #0d0d0d;
+  color: #e0e0e0;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.projects-section h2 {
+  color: #00ffff;
+  margin-bottom: 40px;
+}
+
+.project-card {
+  background: rgba(20, 20, 20, 0.8);
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  transition: all 0.4s;
+  color: #fff;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}

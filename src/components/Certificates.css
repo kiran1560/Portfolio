@@ -1,0 +1,48 @@
+.cert-section {
+  background: rgba(15, 15, 15, 0.8);
+  color: #e0e0e0;
+  padding: 80px 20px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+
+.section-title {
+  color: #00ffff;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.underline {
+  width: 80px;
+  height: 3px;
+  background-color: #00ffff;
+  margin: 10px auto 30px;
+  border-radius: 10px;
+}
+
+.cert-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.cert-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: 12px 0;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.cert-item:hover {
+  background: rgba(0, 255, 255, 0.08);
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.25);
+}

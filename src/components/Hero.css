@@ -1,0 +1,19 @@
+.hero-section {
+  background: radial-gradient(circle at top, rgba(0,255,255,0.15), transparent 70%), #0a0a0a;
+  color: #fff;
+  padding: 150px 20px 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-section span {
+  color: #00ffff;
+}
+
+.hero-buttons button {
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.hero-buttons button:hover {
+  box-shadow: 0 0 10px #00ffff;
+}

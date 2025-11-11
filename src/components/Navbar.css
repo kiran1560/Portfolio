@@ -1,0 +1,22 @@
+.custom-navbar {
+  background: rgba(15, 15, 15, 0.85);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 15px rgba(0, 255, 255, 0.1);
+}
+
+.brand-text {
+  color: #00ffff !important;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.nav-links a {
+  color: #e0e0e0 !important;
+  margin: 0 12px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00ffff !important;
+  text-shadow: 0 0 8px #00ffff;
+}

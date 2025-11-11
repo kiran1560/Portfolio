@@ -13,7 +13,7 @@ export default function Projects() {
             <Col md={4} sm={6} key={proj.id} className="mb-4">
               <Card className="project-card">
                 <Card.Body>
-                  <Card.Title>{proj.title}</Card.Title>
+                  <Card.Title>{proj.title}</Card.Title><br></br>
                   <Card.Text>{proj.description}</Card.Text>
                   <Button
                     variant="outline-info"

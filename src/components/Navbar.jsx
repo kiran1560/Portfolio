@@ -7,7 +7,7 @@ export default function NavBar() {
     <Navbar expand="lg" className="custom-navbar fixed-top">
       <Container>
         <Navbar.Brand href="#home" className="brand-text">
-          {"<Karan />"}
+          {"<Kiranpreet Kaur />"}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
